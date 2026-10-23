@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gnuplot apf107.dat Studio | 3-Hour Ap & F10.7 Visualizer</title>
+    <meta name="description" content="High-resolution Gnuplot script generator and visualizer for 3-hour Ap geomagnetic index and F10.7 solar radio flux from apf107.dat." />
+    <meta property="og:title" content="Gnuplot apf107.dat Studio | 3-Hour Ap & F10.7 Visualizer" />
+    <meta property="og:description" content="High-resolution Gnuplot script generator and visualizer for 3-hour Ap geomagnetic index and F10.7 solar radio flux from apf107.dat." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Suppress unhandled WebSocket errors from Vite dev client in iframe/proxy environments
+      window.addEventListener('error', function(e) {
+        if (e && (
+          (e.message && (e.message.includes('WebSocket') || e.message.includes('createWebSocketModuleRunnerTransport'))) ||
+          (e.filename && e.filename.includes('@vite/client'))
+        )) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(e) {
+        if (e && e.reason && (
+          String(e.reason).includes('WebSocket') ||
+          String(e.reason).includes('createWebSocketModuleRunnerTransport')
+        )) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      }, true);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

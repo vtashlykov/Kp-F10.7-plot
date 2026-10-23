@@ -1,0 +1,6 @@
+{
+  "name": "Gnuplot apf107.dat Studio",
+  "description": "High-resolution Gnuplot script generator and visualizer for 3-hour Ap geomagnetic index and F10.7 solar radio flux from apf107.dat with interactive parameter range controls, storm analysis, and data specification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
